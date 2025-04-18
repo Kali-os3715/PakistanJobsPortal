@@ -1,12 +1,12 @@
 /* JobsPortal Section Styles */
-.architecture-section {
+.JobsPortal-section {
     padding: 100px 5%;
     padding-bottom: 0;
     position: relative;
     overflow: hidden;
 }
 
-.architecture-container {
+.JobsPortal-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -15,7 +15,7 @@
     z-index: 1;
 }
 
-.architecture-card {
+.JobsPortal-card {
     width: calc(33.33% - 20px);
     background-color: #ffffff;
     border-radius: 15px;
@@ -24,25 +24,25 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.architecture-card:hover {
+.JobsPortal-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
-.architecture-image {
+.JobsPortal-image {
     height: 250px;
     overflow: hidden;
     position: relative;
 }
 
-.architecture-image img {
+.Jobs-Portal img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
 
-.JobsPortal-card:hover .Jobs-Portal.png img {
+.JobsPortal-card:hover .Jobs-Portal.jpg img {
     transform: scale(1.1);
 }
 
@@ -109,7 +109,7 @@
 
 
 
-/* Architecture Timeline */
+/* JobsPortal Timeline */
 .timeline-section {
     padding: 80px 0;
 }
@@ -206,8 +206,8 @@
 }
 
 
-/* Architecture Stats */
-.architecture-stats {
+/* JobsPortal Stats */
+.JobsPortal-stats {
     margin-top: 10vh;
     background-color:#005f30;
     padding: 60px 5%;
@@ -216,7 +216,7 @@
     border-radius: 15px;
 }
 
-.architecture-stats h3 {
+.JobsPortal-stats h3 {
     font-size: 2rem;
     margin-bottom: 40px;
 }
@@ -245,17 +245,17 @@
 
 /* Responsive Design */
 @media screen and (max-width: 1024px) {
-    .architecture-card {
+    .JobsPortal-card {
         width: calc(50% - 15px);
     }
 }
 
 @media screen and (max-width: 768px) {
-    .architecture-card {
+    .JobsPortal-card {
         width: 100%;
     }
 
-    .architecture-timeline::before {
+    .JobsPortal-timeline::before {
         left: 0;
     }
 
@@ -283,7 +283,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .architecture-section {
+    .JobsPortal-section {
         padding: 60px 5%;
     }
 
@@ -291,7 +291,7 @@
         font-size: 1.8rem;
     }
 
-    .architecture-image {
+    .JobsPortal-image {
         height: 200px;
     }
 
